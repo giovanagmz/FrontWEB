@@ -1,0 +1,69 @@
+:root {
+    --primary-pink: #f8bbd0;
+    --secondary-pink: #fce4ec;
+    --hover-pink: #f48fb1;
+    --text-pink: #880e4f;
+    --white: #ffffff;
+    --gray: #f5f5f5;
+    
+  }
+  
+  body {
+    background-color: var(--secondary-pink);
+    font-family: 'Playfair Display', serif;
+    color: var(--text-pink);
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+  .text-pink {
+    color: var(--text-pink);
+  }
+  
+  .card {
+    margin-top: 50px;
+  
+    background-color: var(--white);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    color: var(--text-pink);
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  input, select {
+    border: 1px solid var(--text-pink);
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: var(--hover-pink);
+    box-shadow: 0 0 5px var(--hover-pink);
+  }
+  
